@@ -1,4 +1,4 @@
-abstract class Weapon {
+public abstract class Weapon {
 
     protected String name;
     protected int apcost;
@@ -12,22 +12,11 @@ abstract class Weapon {
         this.melee = melee;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getApcost() {
-        return apcost;
-    }
-
-    public int getDamage() {
-        return damage;
-    }
-
-    public boolean getMelee() {
-        return melee;
-    }
-
+    public String getName() { return name; }
+    public int getApcost() { return apcost ; }
+    public int getDamage() {return damage ; }
+    public boolean getMelee() {return melee; }
     public abstract void attack();
+
 
 }
