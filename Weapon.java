@@ -15,7 +15,7 @@ public abstract class Weapon {
     public String getName() { return name; }
     public int getApcost() { return apcost ; }
     public int getDamage() {return damage ; }
-    public boolean getMelee() {return melee; }
+    public boolean isMelee() {return melee; }
     public abstract void attack();
 
 
